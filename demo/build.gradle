@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 29
 
     defaultConfig {
         applicationId "android.support.directionalviewpager.demo"
         minSdkVersion 14
-        targetSdkVersion 27
+        targetSdkVersion 29
         versionCode 1
         versionName "1.0"
     }
@@ -18,6 +18,5 @@ android {
 }
 
 dependencies {
-    compile project(":library")
-    implementation 'com.android.support:appcompat-v7:27.1.1'
-}
+    implementation project(":library")
+    implementation 'androidx.appcompat:appcompat:1.1.0'}
