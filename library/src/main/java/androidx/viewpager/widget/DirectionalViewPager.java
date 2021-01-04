@@ -27,7 +27,6 @@ import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.os.SystemClock;
-import android.support.directionalviewpager.R;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.FocusFinder;
@@ -61,6 +60,7 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.core.view.accessibility.AccessibilityEventCompat;
 import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
 import androidx.customview.view.AbsSavedState;
+import androidx.directionalviewpager.R;
 import androidx.viewpager.widget.ViewPager.OnPageChangeListener;
 import androidx.viewpager.widget.ViewPager.PageTransformer;
 
