@@ -1,16 +1,11 @@
 package com.demo;
 
+import android.annotation.SuppressLint;
 import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.directionalviewpager.demo.R;
-import android.support.v4.view.DirectionalViewPager;
-import android.support.v4.view.PagerAdapter;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.Menu;
@@ -18,6 +13,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.viewpager.widget.DirectionalViewPager;
+import androidx.viewpager.widget.PagerAdapter;
 
 public class ViewPagerActivity extends AppCompatActivity {
 
@@ -62,6 +64,7 @@ public class ViewPagerActivity extends AppCompatActivity {
             return 5;
         }
 
+        @SuppressLint("SetTextI18n")
         @NonNull
         @Override
         public Object instantiateItem(@NonNull ViewGroup container, int position) {
