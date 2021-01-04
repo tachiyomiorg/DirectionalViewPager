@@ -4,7 +4,7 @@ android {
     compileSdkVersion 30
 
     defaultConfig {
-        applicationId "android.support.directionalviewpager.demo"
+        applicationId "androidx.directionalviewpager.demo"
         minSdkVersion 14
         targetSdkVersion 30
         versionCode 1

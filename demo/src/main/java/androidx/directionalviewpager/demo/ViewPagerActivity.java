@@ -1,11 +1,10 @@
-package com.demo;
+package androidx.directionalviewpager.demo;
 
 import android.annotation.SuppressLint;
 import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
-import android.support.directionalviewpager.demo.R;
 import android.util.TypedValue;
 import android.view.Gravity;
 import android.view.Menu;
