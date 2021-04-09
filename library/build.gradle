@@ -6,8 +6,6 @@ android {
     defaultConfig {
         minSdkVersion 14
         targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
     }
 
     buildTypes {
@@ -18,6 +16,6 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.annotation:annotation:1.1.0'
+    implementation 'androidx.annotation:annotation:1.2.0'
     implementation 'androidx.viewpager:viewpager:1.0.0'
 }
